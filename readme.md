@@ -1,6 +1,16 @@
 # jquery-ga-playlength
 PlayLength is a Google Analytics plugin that tracks how much of a HTML5 audio/video player a visitor plays. The plugin supports Universal Analytics, Classic Google Analytics, and Google Tag Manager.
 
+The following time portions are reported:  
+* Baseline — triggered when playing  
+* 25%
+* 50%
+* 75%
+* 95%
+* 100% — triggered when the playing ends
+
+The above items are only triggered once for the audio/video element.
+
 ## usage
 The two requirements are Google Analytics and jQuery (v1.7+). Load the plugin and initialize Scroll Depth as in the example below. Make sure to place the initialization code after your Google Analytics tracking snippet.
 
