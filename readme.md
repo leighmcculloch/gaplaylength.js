@@ -3,10 +3,9 @@ PlayLength is a Google Analytics plugin that tracks how much of a HTML5 audio/vi
 
 The following time portions are reported:  
 * Baseline — triggered when playing  
-* 25%
+* 10%
 * 50%
 * 75%
-* 95%
 * 100% — triggered when the playing ends
 
 The above items are only triggered once for the audio/video element.

@@ -108,10 +108,10 @@
 
       function calculateMarks(durationSeconds) {
         return {
+          '10%': parseInt(durationSeconds * 0.10, 10),
           '25%': parseInt(durationSeconds * 0.25, 10),
           '50%': parseInt(durationSeconds * 0.50, 10),
-          '75%': parseInt(durationSeconds * 0.75, 10),
-          '95%': parseInt(durationSeconds * 0.95, 10)
+          '75%': parseInt(durationSeconds * 0.75, 10)
         };
       }
 
