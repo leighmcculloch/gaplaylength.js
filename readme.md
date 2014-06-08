@@ -1,5 +1,5 @@
 # jquery-ga-playlength
-PlayLength is a Google Analytics plugin that tracks how much of a HTML5 audio/video player a visitor plays. The plugin supports Universal Analytics, Classic Google Analytics, and Google Tag Manager.
+A Google Analytics plugin that measures engagement in audio/video content by tracking how much of a HTML5 audio/video player a visitor plays. The plugin supports Universal Analytics, Classic Google Analytics, and Google Tag Manager.
 
 The following time portions are reported:  
 * Baseline — triggered when playing  
