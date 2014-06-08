@@ -120,7 +120,8 @@
         return (Math.floor(currentTime/10) * 10).toString();
       }
 
-      /*
+      /*!
+       * @preserve
        * Throttle function borrowed from:
        * Underscore.js 1.5.2
        * http://underscorejs.org
