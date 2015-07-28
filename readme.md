@@ -10,6 +10,24 @@ The following time portions are reported:
 
 The above items are only triggered once for the audio/video element.
 
+## Install
+
+### Bower
+
+```bash
+bower install gaplaylength
+```
+
+### NPM
+
+```bash
+npm install gaplaylength --save
+```
+
+### Manual
+
+Download [dist/gaplaylength.min.js](dist/gaplaylength.min.js) or [dist/jquery.gaplaylength.min.js](dist/jquery.gaplaylength.min.js).
+
 ## Usage
 Include this library after your Google Analytics tracking snippet.
 
